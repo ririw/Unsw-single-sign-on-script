@@ -1,0 +1,13 @@
+A greasemonkey script to automatically fill out the UNSW single sign on credentials. 
+For some reason firefox doesn't understand the SSO form, so the normal methods for password saving do not work.
+
+== IMPORTANT WARNING ==
+Anyone who can get this script has your UNSW password. So keep it secure! Or don't use it!
+
+== INSTALL ==
+Edit the line with 'pw.value = "YOUR PASSWORD";' so that it has your password
+Edit the line with 'uid.value = "YOUR STUDENT NUMBER";' so it has your unsw id. You will end up with something like 'uid.value = "z1234567";'
+Open the file with firefox, and install it. Now delete the original file, or at the very least, remove your password from it. Firefox will copy it to your profile directory/gm_scripts
+
+== UNINSTALL ==
+Tools -> Greasemonkey -> Manage User Scripts -> Remove the one that says "fill out UNSW SSO automatically".
